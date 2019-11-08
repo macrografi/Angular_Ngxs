@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Store, Select } from '@ngxs/store';
 import { Tutorial } from '../models/tutorial.model';
 import { TutorialState } from '../state/tutorial.state';
-import "rxjs/Rx";
+//import "rxjs/Rx";
 import { Observable } from 'rxjs/Observable';
 import { RemoveTutorial } from '../actions/tutorial.actions';
 
